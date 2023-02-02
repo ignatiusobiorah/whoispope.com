@@ -6,7 +6,7 @@
   color: $secondaryColor;
   background-color: $mainColor;
   padding: 1rem 2rem 2rem 2rem;
-  height: 36vh;
+  height: 40vh;
 
   h4 {
     color: black;
@@ -73,7 +73,7 @@
   @media only screen and (max-width: 1024px) {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
 
     .footer-grid-2 {
