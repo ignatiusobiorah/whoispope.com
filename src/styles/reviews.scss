@@ -1,0 +1,48 @@
+@import "./variables";
+
+.reviews {
+  text-align: center;
+  padding: 6rem 20rem 8rem 20rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .reviews-container {
+    margin: 0 0.4rem;
+    width: 20vw;
+    .reviews-text {
+      font-size: 1.2rem;
+      border-radius: 12px;
+      background: $mainColor;
+      padding: 1rem;
+    }
+
+    .reviews-img {
+      font-size: 1.2rem;
+      border-radius: 12px;
+      background: $textColor;
+      color: $secondaryColor;
+      padding: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0;
+    padding-top: 4rem;
+    width: 100vw;
+
+    .reviews-container {
+      width: 100vw;
+      .reviews-text {
+        border-radius: 0;
+      }
+
+      .reviews-img {
+        border-radius: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
