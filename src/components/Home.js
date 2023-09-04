@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/home.scss";
-import Hello from "../images/hello-icon.png";
-import Profile from "../images/profile.png";
+import Hello from "../images/hello2.png";
+import Profile from "../images/profile1.png";
 
 const Home = () => {
   return (
@@ -25,7 +25,9 @@ const Home = () => {
         </a>
       </div>
       <div className="home-img">
-        <img src={Profile} alt="profile-img" />
+        <div className="home-img-container">
+          <img src={Profile} alt="profile-img" />
+        </div>
       </div>
     </div>
   );

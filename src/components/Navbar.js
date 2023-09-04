@@ -2,6 +2,7 @@ import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import afrodroid from "../images/afrodroid.png";
+import "../styles/navbar.scss";
 
 const Navbar = () => {
   const navRef = useRef();
